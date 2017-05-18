@@ -6,6 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
 <title>Insert title here</title>
 <link rel="stylesheet" type="text/css" href="../estimate/estimate.css">
+<link rel="stylesheet" type="text/css" href="../introduce/present.css">
 <link rel="stylesheet" type="text/css" href="../qnaboard/qnaboard.css">
 <link rel="stylesheet" type="text/css" href="../shadow/css/shadowbox.css">
 	<!-- Bootstrap Core CSS -->

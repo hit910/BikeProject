@@ -42,7 +42,7 @@
 <!-- 		<div id="header_div">
 			<img id="header_logo" alt="logo" src="image/logo.png" >
 		</div> -->
-		<div id="header_div2">
+		<div id="container">
 		<nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
 		<div class="navbar-header page-scroll">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -50,7 +50,7 @@
                 </button>
                 <a class="navbar-brand" href="#homeLink"><span class="glyphicon glyphicon-knight" aria-hidden="true"></span>&nbsp;JAVA - Bike estimate site</a>
         </div>
-		
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			<ul class="menu nav navbar-nav navbar-right">
 				<li class="page-scroll"><a href="#homeLink">홈</a></li>
 				<li class="page-scroll"><a href="#introduceLink">우리는..</a></li>
@@ -68,6 +68,7 @@
 				<li class="page-scroll"><a href="#">초보 공간</a></li>
 				<li id="login"><a href="#">로그인</a></li>
 			</ul>
+		</div>
 		</nav>
 		</div>
 		</header>

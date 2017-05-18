@@ -69,12 +69,12 @@
 	height: 70px;
 	display: inline-block;
 }
-.dropdown a{
+#estimate .dropdown a{
 		display: block;
 		color: white;
 	}
 	
-.dropdown a:HOVER {
+#estimate .dropdown a:HOVER {
 	background: black;
 	color: #00ABDF;
 	-webkit-transition-duration: 0.4s;
@@ -82,7 +82,7 @@
 	cursor: pointer;
 	}
 	
-	.dropdown a:HOVER {
+#estimate .dropdown a:HOVER {
 	background: black;
 	color: #00ABDF;
 	-webkit-transition-duration: 0.4s;
@@ -96,12 +96,12 @@
 
 #home_div {
 	width: 100%;
-	height: 790px;
+	height: 100%;
 	background-color: #c3c3c3;
 }
 
 #home_img {
-	margin-top: 55px;
+	margin-top: 75px;
 	width: 100%;
 }
 

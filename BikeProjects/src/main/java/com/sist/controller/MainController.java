@@ -19,6 +19,7 @@ public class MainController {
 		model.addAttribute("header_jsp", "header.jsp");
 		model.addAttribute("home_jsp", "home.jsp");
 		model.addAttribute("bottom_jsp", "bottom.jsp");
+		model.addAttribute("introduce", "../introduce/present.jsp");
 		model.addAttribute("estimate", "../estimate/estimate.jsp");
 		model.addAttribute("qnaboard", "../qnaboard/qnaboard.jsp");
 		
