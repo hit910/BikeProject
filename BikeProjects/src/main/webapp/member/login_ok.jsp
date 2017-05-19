@@ -1,8 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
     pageEncoding="EUC-KR"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
-<script type="text/javascript" src="../shadow/js/shadowbox.js"></script>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 <c:choose>
    <c:when test="${res=='id' }">
       <script>
@@ -19,11 +18,6 @@
    </c:when>
    
    <c:otherwise>
-<!--    		<body>
-   			<form action="main/main.do" method="post">
-   				<input type="submit" value="Close">
-   			</form>
-   		</body> -->
    		<c:redirect url="main.do"/>
    </c:otherwise>
 </c:choose>

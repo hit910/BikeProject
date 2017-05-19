@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 <link rel="stylesheet" type="text/css" href="../introduce/introduce.css">
 </head>
-<body id=introduce_body>
+<body>
 	<section id="introduceLink">
 	<center>
 		<div id="introduce_home">

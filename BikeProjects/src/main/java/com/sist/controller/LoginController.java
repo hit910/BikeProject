@@ -27,6 +27,7 @@ public class LoginController {
 	         String db_pwd = dao.memberGetPassword(id);
 	         if(db_pwd.equals(pwd)){
 	            res="ok";
+	            session.setAttribute("id", id);
 	         } else {
 	        	 res = "pwd";
 	         }

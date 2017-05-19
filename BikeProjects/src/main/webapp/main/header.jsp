@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
     pageEncoding="EUC-KR"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -66,7 +67,14 @@
 				<li class="page-scroll"><a href="#qnaboard">묻고 답하기</a></li>
 				<li class="page-scroll"><a href="#">동호회</a></li>
 				<li class="page-scroll"><a href="#">초보 공간</a></li>
-				<li id="login"><a href="#">로그인</a></li>
+				<li id="login">
+					<c:if test="${sessionScope.id==null }">
+						<a href="#">로그인</a>
+					</c:if>
+					<c:if test="${sessionScope.id!=null }">
+						<a href="#">로그아웃</a>
+					</c:if>
+				</li>
 			</ul>
 		</div>
 		</nav>
