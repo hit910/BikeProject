@@ -2,6 +2,7 @@
     pageEncoding="EUC-KR"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script type="text/javascript" src="../shadow/js/shadowbox.js"></script>
 <c:choose>
    <c:when test="${res=='id' }">
       <script>
@@ -12,12 +13,16 @@
    
    <c:when test="${res=='pwd' }">
    	  <script>
-	      alert('패스워드가 틀립니다.')
+	      alert('패스워드가 틀립니다.');
 	      history.back();
       </script>	
    </c:when>
    
    <c:otherwise>
-   		<c:redirect url="main.do"/>
+   		
+		<script>
+			window.parent.Shadowbox.close();
+			window.parent.location.reload();
+		</script>
    </c:otherwise>
 </c:choose>
